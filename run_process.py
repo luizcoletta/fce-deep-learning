@@ -1,11 +1,11 @@
 import subprocess
 import os
 
-from install_packages import install_all_packages
+from utils import install_all_packages
 
 install_pkg = True
 processes = ([
-    "exp3_mobilenet_unet_epochs50.py"
+    "model_training.py"
 ])
 
 if (install_pkg):
